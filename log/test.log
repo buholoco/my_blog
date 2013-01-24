@@ -1,0 +1,796 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#shshow as HTML
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 22ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#shshow as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#shshow as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#shshow as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 22ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 23ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 22ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered blogs/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Parameters: {"id"=>nil}
+  Rendered blogs/create.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  Rendered blogs/destroy.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  Rendered blogs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  Rendered blogs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  Rendered blogs/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  Rendered blogs/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  Rendered blogs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  Rendered blogs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:54:12', '2013-01-24 17:54:12', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:54:12', '2013-01-24 17:54:12', 298486374)
+  [1m[36m (134.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 23.2ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:54:14', '2013-01-24 17:54:14', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:54:14', '2013-01-24 17:54:14', 298486374)
+  [1m[36m (169.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#create as HTML
+  Rendered blogs/create.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" 
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:54:57', '2013-01-24 17:54:57', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:54:57', '2013-01-24 17:54:57', 298486374)
+  [1m[36m (156.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 23.2ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" 
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:58:27', '2013-01-24 17:58:27', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 17:58:27', '2013-01-24 17:58:27', 298486374)
+  [1m[36m (164.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 30ms (Views: 23.4ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#create as HTML
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" 
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" 
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:02:41', '2013-01-24 18:02:41', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:02:41', '2013-01-24 18:02:41', 298486374)
+  [1m[36m (157.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 30ms (Views: 23.3ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:04:21', '2013-01-24 18:04:21', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:04:21', '2013-01-24 18:04:21', 298486374)
+  [1m[36m (157.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.7ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 23.6ms | ActiveRecord: 1.7ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:30:44', '2013-01-24 18:30:44', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:30:44', '2013-01-24 18:30:44', 298486374)
+  [1m[36m (166.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 23.5ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:32:39', '2013-01-24 18:32:39', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:32:39', '2013-01-24 18:32:39', 298486374)
+  [1m[36m (158.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 23.5ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:32:57', '2013-01-24 18:32:57', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:32:57', '2013-01-24 18:32:57', 298486374)
+  [1m[36m (134.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (2.2ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 23.5ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:33:18', '2013-01-24 18:33:18', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:33:18', '2013-01-24 18:33:18', 298486374)
+  [1m[36m (132.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (2.2ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 23.5ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:33:49', '2013-01-24 18:33:49', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:33:49', '2013-01-24 18:33:49', 298486374)
+  [1m[36m (123.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 23.5ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:33:52', '2013-01-24 18:33:52', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:33:52', '2013-01-24 18:33:52', 298486374)
+  [1m[36m (206.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 23.5ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:34:33', '2013-01-24 18:34:33', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:34:33', '2013-01-24 18:34:33', 298486374)
+  [1m[36m (124.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 30ms (Views: 23.1ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:34:39', '2013-01-24 18:34:39', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:34:39', '2013-01-24 18:34:39', 298486374)
+  [1m[36m (173.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (2.2ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 34ms (Views: 23.6ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:35:54', '2013-01-24 18:35:54', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:35:54', '2013-01-24 18:35:54', 298486374)
+  [1m[36m (155.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 23.4ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:36:17', '2013-01-24 18:36:17', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:36:17', '2013-01-24 18:36:17', 298486374)
+  [1m[36m (142.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (2.2ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 23.4ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:37:00', '2013-01-24 18:37:00', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:37:00', '2013-01-24 18:37:00', 298486374)
+  [1m[36m (174.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (2.2ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 34ms (Views: 24.0ms | ActiveRecord: 2.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:37:27', '2013-01-24 18:37:27', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:37:27', '2013-01-24 18:37:27', 298486374)
+  [1m[36m (131.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (2.4ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 34ms (Views: 23.5ms | ActiveRecord: 2.4ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:37:37', '2013-01-24 18:37:37', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:37:37', '2013-01-24 18:37:37', 298486374)
+  [1m[36m (261.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "blogs"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:38:44', '2013-01-24 18:38:44', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "blogs" ("title", "content", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2013-01-24 18:38:44', '2013-01-24 18:38:44', 298486374)
+  [1m[36m (148.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (1.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 23.4ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction

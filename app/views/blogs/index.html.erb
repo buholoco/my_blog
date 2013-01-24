@@ -1,0 +1,10 @@
+<h1><%= @title %></h1>
+<hr />
+
+<div id = 'blogs'>
+  <% @blogs.each do |blog| %>
+    <p><%= blog.title %></p>
+    <p><%= blog.content %></p>
+    <hr />
+  <% end %>
+</div>
