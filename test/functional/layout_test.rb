@@ -9,9 +9,12 @@ class LayoutTest < ActionController::TestCase
       assert_select 'div#container'
   end
 
-  test "should have header div" do
+  test "should have header<div#logo&nav" do
     get :index
-    assert_select 'div#header'
+    assert_select 'header' do
+      assert_select 'div#logo'
+      assert_select 'nav'
+    end
   end
 
   test "should have foot div" do

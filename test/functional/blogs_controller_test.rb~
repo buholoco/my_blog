@@ -19,11 +19,10 @@ class BlogsControllerTest < ActionController::TestCase
 
   test "index should list blogs" do
     get :index
-    assert_select 'section#blogs'
     assigns(:blogs).each do |blog|
       assert_select "article#blog_#{blog.id}"
-      assert_select "div#blog_title<a"
-      assert_select "div#blog_content"
+      assert_select "div#blog_title_style"
+      assert_select "div#blog_content_style"
     end
 
   end
@@ -40,25 +39,60 @@ class BlogsControllerTest < ActionController::TestCase
 
   test "show should have the right title" do
     get :show, :id => blogs(:one).id
-    assert_select 'title', :text => /Show/
+    assert_select 'title', :text => /show/i
   end
 
   test "show should show a blog" do
    get :show, :id => blogs(:one).id
    assert_select 'section#blog' do
-       assert_select 'div#title', :text => blogs(:one).title
-       assert_select 'div#content', :text => blogs(:one).content
+       assert_select 'div#blog_title_style', :text => blogs(:one).title
+       assert_select 'div#blog_content_style', :text => blogs(:one).content
    end
   end
 
   test "should get edit" do
-    get :edit, :id => 1
+    get :edit, :id => blogs(:one).id
     assert_response :success
   end
 
+  test "edit should assign title" do
+    get :edit, :id => blogs(:one).id
+    assert assigns(:title), 'should assign title'
+  end
+
+  test "edit should have the right title" do
+   get :edit, :id => blogs(:one).id 
+   assert_select 'title', :text => /Edit/i
+  end
+
+  test "blog partial _form elements" do
+    get :new, :blog => blogs(:one)
+    assert_template :partial => 'form', :locals =>{ :blog => blogs(:one)}
+    assert_select 'form' do
+      assert_select 'input[id=blog_title][type=text]'
+      assert_select 'textarea[id=blog_content]'
+      assert_select 'input[type=submit]'
+    end
+  end
+
   test "should get new" do
-    get :new, :id => 1
+    get :new
     assert_response :success
+  end
+
+  test "new should assign title" do
+    get :new
+     assert_not_nil assigns(:title)
+  end
+
+  test "new should have the right title" do
+    get :new
+    assert_select 'title', :text => /new/i
+  end
+
+  test "new should assign blog" do
+    get :new
+    assert_not_nil assigns(:blog)
   end
 
   test "should get create" do

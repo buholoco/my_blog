@@ -10,9 +10,13 @@ class BlogsController < ApplicationController
   end
 
   def edit
+    @title = "Edit"
+    @blog = Blog.find(params[:id])
   end
 
   def new
+    @title = "New"
+    @blog = Blog.new
   end
 
   def create

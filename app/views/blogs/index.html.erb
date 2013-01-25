@@ -1,12 +1,9 @@
-<h1><%= @title %></h1>
-<hr />
+<div id="where-am-i"><%= @title %></div>
 
-<section id = 'blogs'>
   <% @blogs.each do |blog| %>
     <article id="blog_<%= blog.id %>">
-        <div id="blog_title"><%= link_to blog.title, blog %></div>
-        <div id="blog_content"><%= blog.content %></div>
+        <div id="blog_title_style"><%= link_to blog.title, blog %></div>
+        <div id="blog_content_style"><%= blog.content %></div>
         <hr />
     </article>
   <% end %>
-</section>

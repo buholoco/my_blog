@@ -6,13 +6,16 @@ class BlogsController < ApplicationController
 
   def show
     @title = 'Show'
-    @blog = Blog.find(params(:id))
+    @blog = Blog.find(params[:id])
   end
 
   def edit
+    @title = "Edit"
+    @blog = Blog.find(params[:id])
   end
 
   def new
+    @blog = Blog.new
   end
 
   def create

@@ -12,6 +12,8 @@
   <%= stylesheet_link_tag   "blueprint/plugins/fancy-type/screen.css", :media => "screen, projection" %>
   <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Englebert' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -32,11 +34,12 @@
     </ul>
   </nav>
   <hr />
-</header>
+  </header>
 
-<section id="main-content">
   <div class="span-18">
+  <div id="main-content">
     <%= yield %>
+  </div>
   </div>
   <aside id="right-row">
     <div id="section-1" class="span-6 last">
@@ -47,7 +50,6 @@
       </ul>
     </div>
   </aside>
-</section>
   <hr />
   <footer>
   <div id="footer" class="span-24">

@@ -2,9 +2,7 @@ require 'test_helper'
 
 class LayoutTest < ActionController::TestCase
 
-  def setup
-    @controller = Controller.new('blogs')
-  end
+  tests BlogsController
 
   test "should have container div" do
     get :index
@@ -13,7 +11,10 @@ class LayoutTest < ActionController::TestCase
 
   test "should have header div" do
     get :index
-    assert_select 'div#header'
+    assert_select 'header' do
+      assert_select 'div#logor'
+      assert_select 'nav'
+    end
   end
 
   test "should have foot div" do

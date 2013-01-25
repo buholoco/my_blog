@@ -1,2 +1,8 @@
-<h1>Blogs#show</h1>
-<p>Find me in app/views/blogs/show.html.erb</p>
+<section id="blog">
+  <div id="blog_title_style">
+    <%= @blog.title %>
+  </div>
+  <div id="blog_content">
+    <%= @blog.content %>
+  </div>
+</section>
