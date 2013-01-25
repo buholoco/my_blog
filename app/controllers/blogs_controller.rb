@@ -5,6 +5,8 @@ class BlogsController < ApplicationController
   end
 
   def show
+    @title = 'Show'
+    @blog = Blog.find(params[:id])
   end
 
   def edit

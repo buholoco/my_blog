@@ -1,3 +1,70 @@
 // Place all the styles related to the Blogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #6B635C;
+}
+#container {
+  background-color: #FFFFEE;
+}
+#blog_title a {
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 5em;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+#blog_content {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  padding:5px;
+  margin-top: 20px;
+}
+#logo {
+  background-image: url('/assets/images/notepadpencil1199.jpg');
+  background-size:970px 350px;
+  background-repeat:no-repeat;
+  height: 300px;
+}
+#logo a{
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 10em;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  text-align:center; /* enter "left", "right", or "center" to orient the menu accordingly */
+  font: bold 16px Georgia;
+  background-color: #ffb
+}
+header nav ul li {
+  display:inline;
+  margin-right:25px; /* spacing between each menu item */
+}
+header nav ul li a {
+  position:relative;
+  color:black;
+  padding-bottom:8px; /*spacing between each menu item and arrow underline beneath it */
+  text-decoration:none;
+}
+header nav ul li a:hover {
+  border-bottom:3px solid purple; /* style of arrow underline */
+}
+header nav ul li a:hover:after {
+  content:'';
+  width:0;
+  height:0;
+  position:absolute;
+  left:50%;
+  margin-left:-5px; /* value should match border-width below */
+  bottom: 0;
+  border-width:5px; /* value should match margin-left above */
+  border-style:solid;
+  border-color: transparent transparent purple transparent; /* create up arrow */
+}

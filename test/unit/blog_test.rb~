@@ -1,0 +1,33 @@
+require 'test_helper'
+
+class BlogTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
+  def setup
+    @attr = { :title => 'Title', :content => 'Valid Content'  }
+  end
+  
+  
+  test "should reject invalid title" do
+    invalid_titles = ['', '  ', '            ', 'aaaa', '    a    ', 'a' * 51]
+    invalid_titles.each do |title|
+      assert !Blog.new(@attr.merge({:title => title})).valid?, "should reject invalid title"
+    end
+  end
+
+  test "should accept valid title" do
+    valid_titles = ['valid', 'e e e', 'validtitle', 
+                    'un titulo mas o menos largo' ,'un titulo todavia mucho mas largo']
+    valid_titles.each do |title|
+      assert Blog.new(@attr.merge({:title => title})).valid?, "should accept valid title"
+    end
+  end
+
+  test "should reject invalid content" do
+    invalid_contents = ['', '                   ', '             aaa                ', 'a' * 9 ]
+    invalid_contents.each do |content|
+      assert !Blog.new(@attr.merge({:content => content})).valid?, "should accept valid content"
+    end
+  end
+end

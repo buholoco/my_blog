@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BlogApp</title>
+  <title><%= @title  %></title>
+  <!-- Framework CSS -->
+  <%= stylesheet_link_tag   "blueprint/screen.css", :media => "screen, projection" %>
+  <%= stylesheet_link_tag   "blueprint/print.css", :media => "print" %>
+  <!--[if IE]>
+  <link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection" />
+  <![endif]-->
+  <!-- Import fancy-type plugin. -->
+  <%= stylesheet_link_tag   "blueprint/plugins/fancy-type/screen.css", :media => "screen, projection" %>
+  <link href='http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
+<div id="container" class="container">
+  
+  <header>
+  <div id="header" class="span-24">
+    <%= link_to 'My Blog', blogs_path %>
+  </div>
+  <nav>
+    <ul>
+      <li><%= link_to "Home", blogs_path %></li>
+      <li><%= link_to "Contact", "#" %></li>
+      <li><%= link_to "About", "#" %></li>
+    </ul>
+  </nav>
+  <hr />
+</header>
 
-<%= yield %>
-
+<section id="main-content">
+  <div class="span-18">
+    <%= yield %>
+  </div>
+  <aside id="right-row">
+    <div id="section-1" class="span-6 last">
+      <ul>
+        <li><%= link_to "Home", blogs_path %></li>
+        <li><%= link_to "Contact", "#" %></li>
+        <li><%= link_to "About", "#" %></li>
+      </ul>
+    </div>
+  </aside>
+</section>
+  <hr />
+  <footer>
+  <div id="footer" class="span-24">
+      copyright Buho 2013
+  </div>
+</footer>
+</div>
 </body>
 </html>
