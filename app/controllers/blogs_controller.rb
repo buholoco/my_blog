@@ -4,6 +4,11 @@ class BlogsController < ApplicationController
     @blogs = Blog.all
   end
 
+  def new
+    @title = "New"
+    @blog = Blog.new
+  end
+
   def show
     @title = 'Show'
     @blog = Blog.find(params[:id])
@@ -12,11 +17,11 @@ class BlogsController < ApplicationController
   def edit
     @title = "Edit"
     @blog = Blog.find(params[:id])
-  end
-
-  def new
-    @title = "New"
-    @blog = Blog.new
+    if @blog.update_attributes(params[:blog])
+      redirect_to @blog, :flash => {:success => "Blog updated!"}
+    else
+      render 'new'
+    end
   end
 
   def create

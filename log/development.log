@@ -15088,3 +15088,757 @@ Served asset /application.js - 304 Not Modified (1ms)
 
 Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:09:43 -0300
 Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/298486374" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "298486374"]]
+  Rendered blogs/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:56 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/298486374/edit" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", "298486374"]]
+  Rendered blogs/_form.html.erb (1.7ms)
+  Rendered blogs/edit.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:31:59 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/298486374/edit" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "298486374"]]
+  Rendered blogs/_form.html.erb (1.8ms)
+  Rendered blogs/edit.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:00 -0300
+Served asset /blueprint/print.css - 304 Not Modified (20ms)
+
+
+Started GET "/blogs/new" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Processing by BlogsController#new as HTML
+  Rendered blogs/_form.html.erb (2.8ms)
+  Rendered blogs/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:06 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" 
+  Rendered blogs/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:32:09 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/298486374" for 127.0.0.1 at 2013-01-25 16:41:52 -0300
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "298486374"]]
+  Rendered blogs/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:41:52 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:41:52 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:41:52 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:41:52 -0300
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:41:53 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:41:53 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:41:53 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:41:53 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:41:53 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/298486374/edit" for 127.0.0.1 at 2013-01-25 16:41:56 -0300
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", "298486374"]]
+  Rendered blogs/_form.html.erb (1.7ms)
+  Rendered blogs/edit.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: 
+    2: <%= form_for(@blog) do |f| %>
+    3: <% if @post.errors.any? %>
+    4:   <div id="errorExplanation">
+    5:     <h2><%= pluralize(@blog.errors.count, "error") %> prohibited
+    6:         this blog from being saved:</h2>
+  app/views/blogs/_form.html.erb:3:in `block in _app_views_blogs__form_html_erb__696862632__634135478'
+  app/views/blogs/_form.html.erb:2:in `_app_views_blogs__form_html_erb__696862632__634135478'
+  app/views/blogs/edit.html.erb:3:in `_app_views_blogs_edit_html_erb___1043537967__618588908'
+
+
+  Rendered /home/buho/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/buho/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/buho/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
+
+
+Started GET "/blogs/298486374/edit" for 127.0.0.1 at 2013-01-25 16:41:57 -0300
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "298486374"]]
+  Rendered blogs/_form.html.erb (1.0ms)
+  Rendered blogs/edit.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: 
+    2: <%= form_for(@blog) do |f| %>
+    3: <% if @post.errors.any? %>
+    4:   <div id="errorExplanation">
+    5:     <h2><%= pluralize(@blog.errors.count, "error") %> prohibited
+    6:         this blog from being saved:</h2>
+  app/views/blogs/_form.html.erb:3:in `block in _app_views_blogs__form_html_erb__696862632__634135478'
+  app/views/blogs/_form.html.erb:2:in `_app_views_blogs__form_html_erb__696862632__634135478'
+  app/views/blogs/edit.html.erb:3:in `_app_views_blogs_edit_html_erb___1043537967__618588908'
+
+
+  Rendered /home/buho/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/buho/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/buho/.rvm/gems/ruby-1.9.3-p374/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
+
+
+Started GET "/blogs/298486374/edit" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", "298486374"]]
+  Rendered blogs/_form.html.erb (2.8ms)
+  Rendered blogs/edit.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:20 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started PUT "/blogs/298486374" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Processing by BlogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gi4Ge9Z/7Kfc5x89uoFiSA1hEZyv98Oa4948nK1Tibs=", "blog"=>{"title"=>"", "content"=>"MyText"}, "commit"=>"Update Blog", "id"=>"298486374"}
+  Rendered blogs/update.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-25 16:42:26 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-27 03:23:05 -0300
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (19ms)
+
+
+Started GET "/blogs/" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 373ms (Views: 339.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /blogs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /blogs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:12 -0300
+Served asset /blueprint/print.css - 304 Not Modified (17ms)
+
+
+Started GET "/blogs/298486374" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[35mBlog Load (0.2ms)[0m  SELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", "298486374"]]
+  Rendered blogs/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:23 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/298486374/edit" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[36mBlog Load (0.2ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "298486374"]]
+  Rendered blogs/_form.html.erb (6.1ms)
+  Rendered blogs/edit.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:23:27 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started PUT "/blogs/298486374" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Processing by BlogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rYD59cQmUMKZse4c28b9d0xVjwrFKBnHjt0W0YviX6U=", "blog"=>{"title"=>"", "content"=>"MyText"}, "commit"=>"Update Blog", "id"=>"298486374"}
+  Rendered blogs/update.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:41:59 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.2ms)[0m  SELECT "blogs".* FROM "blogs" 
+  Rendered blogs/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 7.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:02 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/new" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Processing by BlogsController#new as HTML
+  Rendered blogs/_form.html.erb (3.1ms)
+  Rendered blogs/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /blogs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:07 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started POST "/blogs" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rYD59cQmUMKZse4c28b9d0xVjwrFKBnHjt0W0YviX6U=", "blog"=>{"title"=>"", "content"=>""}, "commit"=>"Create Blog"}
+  Rendered blogs/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:09 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" [0m
+  Rendered blogs/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/plugins/fancy-type/screen.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /blueprint/plugins/fancy-type/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2013-01-27 03:42:11 -0300
+Served asset /blueprint/print.css - 304 Not Modified (0ms)

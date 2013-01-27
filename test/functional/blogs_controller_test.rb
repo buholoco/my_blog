@@ -1,6 +1,8 @@
 require 'test_helper'
 
 class BlogsControllerTest < ActionController::TestCase
+  ###
+  # index
   test "should get index" do
     get :index
     assert_response :success
@@ -24,9 +26,33 @@ class BlogsControllerTest < ActionController::TestCase
       assert_select "div#blog_title_style"
       assert_select "div#blog_content_style"
     end
-
   end
 
+  ###
+  # new
+  test "should get new" do
+    get :new
+    assert_response :success
+  end
+
+  test "new should assign title" do
+    get :new
+     assert_not_nil assigns(:title)
+  end
+
+  test "new should have the right title" do
+    get :new
+    assert_select 'title', :text => /new/i
+  end
+
+  test "new should assign blog" do
+    get :new
+    assert_not_nil assigns(:blog)
+  end
+
+
+  ###
+  # show
   test "should get show" do
     get :show, :id => blogs(:one).id
     assert_response :success
@@ -50,6 +76,8 @@ class BlogsControllerTest < ActionController::TestCase
    end
   end
 
+  ###
+  # edit
   test "should get edit" do
     get :edit, :id => blogs(:one).id
     assert_response :success
@@ -65,46 +93,45 @@ class BlogsControllerTest < ActionController::TestCase
    assert_select 'title', :text => /Edit/i
   end
 
-  test "blog partial _form elements" do
-    get :new
-    assert_template :partial => 'form', :locals =>{ :blog => blogs(:one)}
+  ###
+  ## Failure
+  test "edit should render partial _form" do
+    @attr = { :title => '', :content => ''}
+    get :edit, :id => blogs(:one).id, :blog => @attr
+    assert_template :partial => '_form'
     assert_select 'form' do
       assert_select 'input[id=blog_title][type=text]'
       assert_select 'textarea[id=blog_content]'
       assert_select 'input[type=submit]'
     end
   end
-
-  test "should get new" do
-    get :new
-    assert_response :success
+  
+  ###
+  ## Success
+  test "edit should modify blog" do
+    @attr = { :title => 'New title', :content => 'New Content'}
+    get :edit, :id => blogs(:one).id, :blog => @attr
+    blogs(:one).reload
+    assert blogs(:one).title == @attr[:title]
+    assert blogs(:one).content == @attr[:content]
   end
 
-  test "new should assign title" do
-    get :new
-     assert_not_nil assigns(:title)
-  end
-
-  test "new should have the right title" do
-    get :new
-    assert_select 'title', :text => /new/i
-  end
-
-  test "new should assign blog" do
-    get :new
-    assert_not_nil assigns(:blog)
-  end
-
+  ###
+  # create
   test "should get create" do
     post :create
     assert_response :success
   end
 
+  ###
+  # update
   test "should get update" do
     put :update, :id => 1 
     assert_response :success
   end
 
+  ###
+  # destroy
   test "should get destroy" do
     delete :destroy, :id => 1 
     assert_response :success
