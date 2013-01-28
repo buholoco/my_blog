@@ -11,7 +11,9 @@ class Blog < ActiveRecord::Base
   
 
   def strip_whitespaces
-    self.title = self.title.strip
-    self.content = self.content.strip
+    if !title.blank?
+      self.title = self.title.strip
+      self.content = self.content.strip
+    end
   end
 end

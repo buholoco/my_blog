@@ -1,6 +1,12 @@
 require 'test_helper'
 
 class BlogsControllerTest < ActionController::TestCase
+
+  def setup
+    @attr = {:title => 'Valid Title', :content => 'Valid Content'}
+    @attr_invalid = {:title => '', :content => ''}
+  end
+
   ###
   # index
   test "should get index" do
@@ -50,8 +56,15 @@ class BlogsControllerTest < ActionController::TestCase
     assert_not_nil assigns(:blog)
   end
 
-
   ###
+  ## failure
+  test "new should render new" do
+    get :new, :blog => @attr_invalid
+    assert_template 'new'
+  end
+
+ 
+  ### 
   # show
   test "should get show" do
     get :show, :id => blogs(:one).id
@@ -68,6 +81,8 @@ class BlogsControllerTest < ActionController::TestCase
     assert_select 'title', :text => /show/i
   end
 
+  ###
+  ## success
   test "show should show a blog" do
    get :show, :id => blogs(:one).id
    assert_select 'section#blog' do
@@ -93,28 +108,6 @@ class BlogsControllerTest < ActionController::TestCase
    assert_select 'title', :text => /Edit/i
   end
 
-  ###
-  ## Failure
-  test "edit should render partial _form" do
-    @attr = { :title => '', :content => ''}
-    get :edit, :id => blogs(:one).id, :blog => @attr
-    assert_template :partial => '_form'
-    assert_select 'form' do
-      assert_select 'input[id=blog_title][type=text]'
-      assert_select 'textarea[id=blog_content]'
-      assert_select 'input[type=submit]'
-    end
-  end
-  
-  ###
-  ## Success
-  test "edit should modify blog" do
-    @attr = { :title => 'New title', :content => 'New Content'}
-    get :edit, :id => blogs(:one).id, :blog => @attr
-    blogs(:one).reload
-    assert blogs(:one).title == @attr[:title]
-    assert blogs(:one).content == @attr[:content]
-  end
 
   ###
   # create
@@ -123,18 +116,99 @@ class BlogsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "create should assing blog" do
+    post :create, :blog => @attr
+    assert assigns(:blog)
+  end
+
+  ###
+  ## failure
+  test "create should render new" do
+    post :create, :blog => @attr_invalid
+    assert_template 'new' 
+  end
+
+  test "create should no add a new blog" do
+    assert_no_difference 'Blog.count' do
+      post :create, :blog => @attr_invalid
+    end 
+  end
+
+  test "create should show errors" do
+    get :create, :blog => @attr_invalid
+    assert_select 'div.error' 
+  end
+
+  ###
+  ## success
+  test "create should add a new blog" do
+    assert_difference 'Blog.count', 1 do
+      post :create, :blog => @attr
+    end
+  end
+
+  test "create should redirect to blog" do
+    post :create, :blog => @attr
+    assert_redirected_to blog_path(assigns(:blog))
+  end
+
   ###
   # update
-  test "should get update" do
-    put :update, :id => 1 
-    assert_response :success
+  test "update should assign title" do
+    put :update, :id => blogs(:one).id
+    assert assigns(:title)
+  end
+
+  ###
+  ## Failure
+  test "update should render edit" do
+    put :update, :id => blogs(:one).id, :blog => @attr_invalid
+    assert_template 'edit' 
+  end
+
+  test "update should render partial _form" do
+    put :update, :id => blogs(:one).id, :blog => @attr_invalid
+    assert_template :partial => '_form'
+    assert_select 'form' do
+      assert_select 'input[id=blog_title][type=text]'
+      assert_select 'textarea[id=blog_content]'
+      assert_select 'input[type=submit]'
+    end
+  end
+
+  test "update should show errors" do
+    put :update, :id => blogs(:one).id, :blog => @attr_invalid
+    assert_select 'div.error' 
+  end
+  
+  ###
+  ## Success
+  test "update should modify blog" do
+    put :update, :id => blogs(:one).id, :blog => @attr
+    blogs(:one).reload
+    assert blogs(:one).title == @attr[:title]
+    assert blogs(:one).content == @attr[:content]
+  end
+
+  test "update should redirect to show blog" do
+    put :update, :id => blogs(:one).id, :blog => @attr
+    assert_redirected_to blog_path(blogs(:one)) 
   end
 
   ###
   # destroy
-  test "should get destroy" do
-    delete :destroy, :id => 1 
-    assert_response :success
+
+  ###
+  ## success
+  test "should delete a blog" do
+    assert_difference 'Blog.count', -1 do
+      delete :destroy, :id => blogs(:one).id
+    end
+  end
+
+  test "should redirect to blogs" do
+    delete :destroy, :id => blogs(:one).id
+    assert_redirected_to blogs_path
   end
 
 end

@@ -38,7 +38,11 @@
 
   <div class="span-18">
   <div id="main-content">
+    <% flash.each do |key, value| %>
+      <div class="alert success"><%= value %></div>
+    <% end %>
     <%= yield %>
+  </div>
   </div>
   <aside id="right-row">
     <div id="section-1" class="span-6 last">
@@ -49,7 +53,6 @@
       </ul>
     </div>
   </aside>
-</div>
   <hr />
   <footer>
   <div id="footer" class="span-24">

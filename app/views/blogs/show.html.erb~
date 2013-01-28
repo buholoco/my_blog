@@ -2,7 +2,10 @@
   <div id="blog_title_style">
     <%= @blog.title %>
   </div>
-  <div id="blog_content">
+  <div id="blog_content_style">
     <%= @blog.content %>
   </div>
 </section>
+<div id="edit">
+  <%= link_to 'Edit blog', blog_path %>
+</div>

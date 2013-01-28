@@ -1,7 +1,7 @@
 
 <%= form_for(@blog) do |f| %>
 <% if @blog.errors.any? %>
-  <div id="errorExplanation">
+  <div id="errorExplanation" class="error">
     <h2><%= pluralize(@blog.errors.count, "error") %> prohibited
         this blog from being saved:</h2>
     <ul>

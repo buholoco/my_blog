@@ -1,9 +1,6 @@
 require 'test_helper'
 
 class BlogTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
   def setup
     @attr = { :title => 'Title', :content => 'Valid Content'  }
   end
@@ -27,7 +24,7 @@ class BlogTest < ActiveSupport::TestCase
   test "should reject invalid content" do
     invalid_contents = ['', '                   ', '             aaa                ', 'a' * 9 ]
     invalid_contents.each do |content|
-      assert !Blog.new(@attr.merge({:content => content})).valid?, "should accept valid content"
+      assert !Blog.new(@attr.merge({:content => content})).valid?, "should reject valid content"
     end
   end
 

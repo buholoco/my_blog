@@ -38,6 +38,9 @@
 
   <div class="span-18">
   <div id="main-content">
+    <% flash.each do |key, value| %>
+      <div id="notice" class="alert success"><%= value %></div>
+    <% end %>
     <%= yield %>
   </div>
   </div>
