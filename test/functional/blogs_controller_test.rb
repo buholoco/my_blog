@@ -13,16 +13,21 @@ class BlogsControllerTest < ActionController::TestCase
     get :index
     assert_response :success
   end
-  
+
+  test "index should assign blogs" do
+    get :index
+    assert_not_nil assigns(:blogs), "should assign blogs"
+  end
+
+  test "index should assign title" do
+    get :index
+    assert_not_nil assigns(:title), "should assign title"
+  end
+
   test "index should have the right title" do
     get :index
     assert assigns(:title), "should assigns 'title'"
     assert_select 'title', :text => 'Home'
-  end
-  
-  test "index should assign blogs" do
-    get :index
-    assert assigns(:blogs), "should assigns blogs"
   end
 
   test "index should list blogs" do
@@ -43,7 +48,7 @@ class BlogsControllerTest < ActionController::TestCase
 
   test "new should assign title" do
     get :new
-     assert_not_nil assigns(:title)
+    assert_not_nil assigns(:title)
   end
 
   test "new should have the right title" do
@@ -58,7 +63,7 @@ class BlogsControllerTest < ActionController::TestCase
 
   ###
   ## failure
-  test "new should render new" do
+  test "should render new if invalid" do
     get :new, :blog => @attr_invalid
     assert_template 'new'
   end
@@ -73,7 +78,7 @@ class BlogsControllerTest < ActionController::TestCase
 
   test "should assign blog" do
     get :show, :id => blogs(:one).id
-    assert assigns(:blog), "show should assign @blog"
+    assert_not_nil assigns(:blog), "show should assign @blog"
   end
 
   test "show should have the right title" do
@@ -100,7 +105,7 @@ class BlogsControllerTest < ActionController::TestCase
 
   test "edit should assign title" do
     get :edit, :id => blogs(:one).id
-    assert assigns(:title), 'should assign title'
+    assert_not_nil assigns(:title), 'should assign title'
   end
 
   test "edit should have the right title" do
@@ -118,17 +123,17 @@ class BlogsControllerTest < ActionController::TestCase
 
   test "create should assing blog" do
     post :create, :blog => @attr
-    assert assigns(:blog)
+    assert_not_nil assigns(:blog)
   end
 
   ###
   ## failure
-  test "create should render new" do
+  test "should render new if blog is invalid" do
     post :create, :blog => @attr_invalid
     assert_template 'new' 
   end
 
-  test "create should no add a new blog" do
+  test "should no add a new blog with invalid blog" do
     assert_no_difference 'Blog.count' do
       post :create, :blog => @attr_invalid
     end 
@@ -197,6 +202,10 @@ class BlogsControllerTest < ActionController::TestCase
 
   ###
   # destroy
+  test "should get destroy" do
+    delete :destroy, :id => blogs(:one).id
+    assert_redirected_to blogs_path
+  end
 
   ###
   ## success
@@ -208,7 +217,6 @@ class BlogsControllerTest < ActionController::TestCase
 
   test "should redirect to blogs" do
     delete :destroy, :id => blogs(:one).id
-    assert_redirected_to blogs_path
   end
 
 end

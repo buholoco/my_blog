@@ -4,8 +4,19 @@ class BlogTest < ActiveSupport::TestCase
   def setup
     @attr = { :title => 'Title', :content => 'Valid Content'  }
   end
-  
-  
+
+  test "should respond to title" do
+    assert Blog.new.respond_to?(:title)
+  end
+
+  test "should respond to content" do
+    assert Blog.new.respond_to?(:content)
+  end
+
+  test "should respond to comments" do
+    assert Blog.new.respond_to?(:comments)
+  end
+
   test "should reject invalid title" do
     invalid_titles = ['', '  ', '            ', 'aaaa', '    a    ', 'a' * 51]
     invalid_titles.each do |title|
@@ -35,9 +46,18 @@ class BlogTest < ActiveSupport::TestCase
                       ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
                       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
                       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]
-                      
+
     valid_contents.each do |content|
       assert Blog.new(@attr.merge({:content => content})).valid?, "should accept valid content"
+    end
+  end
+
+  test "should accept valid comment" do
+    blog = Blog.new(@attr)
+    comment = { content: 'Comment content', email: 'email@test.org' }
+    assert_difference 'blog.comments.count' do
+      blog.comments.build(comment)
+      blog.save
     end
   end
 end
